@@ -32,11 +32,11 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-
-- task: AzureWebApp@1
+- task: AzureRmWebAppDeployment@4
   inputs:
+    ConnectionType: 'AzureRM'
     azureSubscription: 'Free Trial(9086644d-8fc9-4431-8967-1b7c3fe881ff)'
     appType: 'webAppLinux'
-    appName: 'kpianalyticsdevapi'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    configuration: '$(buildConfiguration)'
+    WebAppName: 'kpianalyticsdevapi'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    RuntimeStack: 'DOTNETCORE|6.0'
