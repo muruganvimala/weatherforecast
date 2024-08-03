@@ -1,0 +1,7 @@
+D:\Techset\API_Project\weather_forecast\obj\Release\net6.0\PubTmp\Out\weather_forecast.exe
+D:\Techset\API_Project\weather_forecast\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Techset\API_Project\weather_forecast\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Techset\API_Project\weather_forecast\obj\Release\net6.0\PubTmp\Out\weather_forecast.dll
+D:\Techset\API_Project\weather_forecast\obj\Release\net6.0\PubTmp\Out\weather_forecast.deps.json
+D:\Techset\API_Project\weather_forecast\obj\Release\net6.0\PubTmp\Out\weather_forecast.runtimeconfig.json
+D:\Techset\API_Project\weather_forecast\obj\Release\net6.0\PubTmp\Out\weather_forecast.pdb
